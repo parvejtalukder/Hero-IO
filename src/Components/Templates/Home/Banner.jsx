@@ -1,0 +1,53 @@
+import React from 'react';
+import { Link } from 'react-router';
+import MobileAndIcons from './MobileAndIcons';
+
+const Banner = () => {
+    return (
+        <div>
+            <div className='p-[80px] flex flex-col justify-center items-center gap-[40px] relative'>
+                <section className='flex flex-col justify-center items-center gap-[16px]'>
+                    <h2 className='font-bold text-[72px] text-center leading-[80px]'>We Build <br /> <span className='text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)100%)] font-inter font-bold leading-[26px] capitalize text-left text-[72px]'>Productive</span> Apps</h2>
+                    <p className='text-center text-[#627382] font-inter text-[20px] font-normal leading-[32px]'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                </section>
+                <div className='flex justify-center items-center gap-10'>
+                        <Link to={'https://play.google.com/'} className='flex justify-between items-center border-2 border-gray-200 px-5 py-2 rounded-xl gap-4'>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Play_2022_icon.svg" alt="GPS" className='w-[32px]' />
+                            <p className='font-bold text-[16px]'>Play Store</p>
+                        </Link>
+                        <Link to={'https://www.apple.com/app-store/'} className='flex justify-between items-center border-2 border-gray-200 px-5 py-2 rounded-xl gap-4'>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="AS" className='w-[32px]' />
+                            <p className='font-bold text-[16px]'>App Store</p>
+                        </Link>
+                    </div>
+                <section className='max-w-full'>
+                    <MobileAndIcons></MobileAndIcons>
+                </section>
+            </div>
+            <div className='flex justify-center items-center -mt-20'>
+                <section className='h-5 w-full bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] p-[80px]'>
+                    <h2>Trusted by Millions, Built for You</h2>
+                    <section>
+                        <div>
+                            <p>Total Downloads</p>
+                            <h2>29.6M</h2>
+                            <p>21% more than last month</p>
+                        </div>
+                        <div>
+                            <p>Total Downloads</p>
+                            <h2>29.6M</h2>
+                            <p>21% more than last month</p>
+                        </div>
+                        <div>
+                            <p>Total Downloads</p>
+                            <h2>29.6M</h2>
+                            <p>21% more than last month</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    );
+};
+
+export default Banner;
