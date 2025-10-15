@@ -11,12 +11,12 @@ const MobileAndIcons = () => {
     return (
         <div>
             <div className='relative'>
-                <img src={Ellipse} alt="Ellipse" className='absolute top-20 -left-30'/>
-                <img src={Clock} alt="Clock" className='absolute top-20 -right-30'/>
-                <img src={Tick} alt="Tick" className='absolute top-50 -left-40'/>
-                <img src={Status} alt="Status" className='absolute top-50 -right-40'/>
-                <img src={Power} alt="Power" className='absolute top-80 -left-50'/>
-                <img src={Cross} alt="Cross" className='absolute top-80 -right-50'/>
+                <img src={Ellipse} alt="Ellipse" className='hidden absolute top-20 -left-30'/>
+                <img src={Clock} alt="Clock" className='hidden absolute top-20 -right-30'/>
+                <img src={Tick} alt="Tick" className='hidden absolute top-50 -left-40'/>
+                <img src={Status} alt="Status" className='hidden absolute top-50 -right-40'/>
+                <img src={Power} alt="Power" className='hidden absolute top-80 -left-50'/>
+                <img src={Cross} alt="Cross" className='hidden absolute top-80 -right-50'/>
                 <img src={Mobile} alt="Mobile" className='w-[400px]'/>
             </div>
         </div>
