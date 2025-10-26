@@ -27,8 +27,8 @@ const Header = () => {
                   </ul>
                 </div>
                 <Link className='flex justify-center items-center gap-2'>
-                    <img src={HeroIO} alt="HeroIO" className='w-10'/>
-                    <p className="text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)100%)] font-inter font-bold leading-[26px] capitalize text-left text-[26px]">HERO.IO</p>
+                    <img src={HeroIO} alt="HeroIO" className='w-6 lg:w-10'/>
+                    <p className="text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)100%)] font-inter font-bold leading-[26px] capitalize text-left text-[20px] lg:text-[26px]">HERO.IO</p>
                 </Link>
               </div>
               <div className="navbar-center hidden lg:flex">
@@ -37,9 +37,9 @@ const Header = () => {
                 </ul>
               </div>
               <div className="navbar-end">
-                <Link to={'https://github.com/parvejtalukder'} className='gap-2w-[145px] h-[43px] flex flex-row justify-center items-center gap-[10px] px-4 py-3 rounded bg-gradient-to-br from-[#632EE3] to-[#9F62F2]'>
-                    <img src={GitHub} alt="GitHub Icon" className='w-[15px]'/>
-                    <p className="text-white font-semibold text-[16px]">Contribution</p>
+                <Link to={'https://github.com/parvejtalukder'} className='w-[125px] lg:w-[145px] h-[43px] flex flex-row justify-center items-center gap-[10px] px-4 py-3 rounded bg-gradient-to-br from-[#632EE3] to-[#9F62F2]'>
+                    <img src={GitHub} alt="GitHub Icon" className='w-[12px] lg:w-[15px]'/>
+                    <p className="text-white font-semibold text-[12px] lg:text-[16px]">Contribution</p>
                 </Link>
               </div>
             </div>

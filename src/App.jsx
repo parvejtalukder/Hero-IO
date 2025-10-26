@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      <h2>Its HOje</h2>
+      {/* <h2>Its HOje</h2> */}
     </div>
   )
 }
