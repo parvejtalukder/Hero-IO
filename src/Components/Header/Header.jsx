@@ -8,8 +8,8 @@ const Header = () => {
 
     const NavLinks = <>
         <Link className='pl-4 text-[16px]' to={Root}>Home</Link>
-        <Link className='pl-4 text-[16px]'>Apps</Link>
-        <Link className='pl-4 text-[16px]'>Installation</Link>
+        <Link className='pl-4 text-[16px]' to={'/apps'}>Apps</Link>
+        <Link className='pl-4 text-[16px]' to={'/installation'}>Installation</Link>
     </>
 
     return (

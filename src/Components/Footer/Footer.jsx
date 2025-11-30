@@ -2,18 +2,18 @@ import React from 'react';
 import HEROLOGO from '../../assets/logo.png'
 
 const Footer = () => {
-    return (
-        <div>
-            <footer className="footer footer-horizontal footer-center bg-purple-900 text-primary-content p-10">
-            <aside className=''>
-              <div className="font-bold flex flex-col justify-center items-center">
-                <p className="pb-6 text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)100%)] font-inter font-bold leading-[26px] capitalize text-left text-[26px] bg-amber-50">HERO.IO</p>
-                <p>Trusted by Millions, Built for You</p>
-              </div>
-              <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
-            </aside>
-            <nav>
-              <div className="grid grid-flow-col gap-4">
+  return (
+    <footer className="bg-purple-900 text-primary-content p-10 w-full">
+      <div className='flex flex-col lg:flex-row lg:justify-between items-center w-full mb-4'>
+        <section>
+          <p className="text-transparent bg-clip-text bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)100%)] font-inter font-bold leading-[26px] capitalize text-left text-[20px] lg:text-[26px]">
+            HERO.IO
+          </p>
+        </section>
+        <section>
+          <h2 className='font-bold text-xl'>Social Links</h2>
+          <div className='flex justify-around items-center'>
+            <div className="grid grid-flow-col gap-4">
                 <a>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +48,12 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-            </nav>
-          </footer>
-        </div>
-    );
+          </div>
+        </section>
+      </div>
+      <p className="text-center">Copyright © {new Date().getFullYear()} - All rights reserved</p>
+    </footer>
+  );
 };
 
 export default Footer;
