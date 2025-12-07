@@ -1,11 +1,13 @@
 import React from 'react';
 import SIcon from '../../../../../assets/icon-ratings.png'
 import DIcon from '../../../../../assets/icon-downloads.png'
+import { Link } from 'react-router';
 
 const App = ({app}) => {
 
     return (
         <div>
+            <Link to={`/apps/${app.id}`}>
             <section className='bg-white rounded-2xl w-full h-full p-5'>
                 <figure className='bg-gray-100 rounded-2xl p-3'>
                     <img src={app?.image} alt={app.title} className='rounded-2xl w-full h-auto' />
@@ -22,6 +24,7 @@ const App = ({app}) => {
                     </div>
                 </section>
             </section>
+            </Link>
         </div>
     );
 };

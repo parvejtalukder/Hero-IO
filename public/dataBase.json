@@ -53,21 +53,21 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/ijzViJ_kRQaWSczJgvq1uJ4OC4d5iO7qM5r5r5r5r5r/icon.png",
-    "title": "TaskBuddy",
-    "companyName": "WorkSmart Co.",
-    "id": 4,
-    "description": "Manage tasks with ease using reminders and team collaboration tools. Track progress and stay organized to boost productivity in work and daily life.",
+    "image": "https://play-lh.googleusercontent.com/-epxNNeafRo_4qglUWC4YguLXZWyy1FvkkG9ha3uUZRov2jxKcV5s0laUbSbqH4zzA",
+    "title": "HabitHero",
+    "companyName": "GrowEasy",
+    "id": 18,
+    "description": "Build and track habits with motivational reminders. Monitor progress with stats and stay on track to achieve personal goals with this habit-forming app.",
     "size": 30,
-    "reviews": 4500,
-    "ratingAvg": 4.0,
-    "downloads": 150000,
+    "reviews": 5000,
+    "ratingAvg": 4.1,
+    "downloads": 200000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
       { "name": "3 star", "count": 1000 },
       { "name": "4 star", "count": 1500 },
-      { "name": "5 star", "count": 1200 }
+      { "name": "5 star", "count": 1900 }
     ]
   },
   {
@@ -269,7 +269,7 @@
     ]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/80/92/438092960/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGL3Qr8jfJaTFqRTlsbVt2NHIRGnytPqLWhA&s",
     "title": "FitCoach",
     "companyName": "ActiveLife",
     "id": 16,
@@ -284,42 +284,6 @@
       { "name": "3 star", "count": 1400 },
       { "name": "4 star", "count": 4500 },
       { "name": "5 star", "count": 7100 }
-    ]
-  },
-  {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/57/45/82/574582016/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-    "title": "BookWorm",
-    "companyName": "LitApps",
-    "id": 17,
-    "description": "Read eBooks and audiobooks with customizable settings. Enjoy a vast library, adjust text size, and listen or read anywhere with this versatile reading app.",
-    "size": 50,
-    "reviews": 10000,
-    "ratingAvg": 4.4,
-    "downloads": 500000,
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3000 },
-      { "name": "5 star", "count": 4700 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/-epxNNeafRo_4qglUWC4YguLXZWyy1FvkkG9ha3uUZRov2jxKcV5s0laUbSbqH4zzA",
-    "title": "HabitHero",
-    "companyName": "GrowEasy",
-    "id": 18,
-    "description": "Build and track habits with motivational reminders. Monitor progress with stats and stay on track to achieve personal goals with this habit-forming app.",
-    "size": 30,
-    "reviews": 5000,
-    "ratingAvg": 4.1,
-    "downloads": 200000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1000 },
-      { "name": "4 star", "count": 1500 },
-      { "name": "5 star", "count": 1900 }
     ]
   }
 ]

@@ -15,7 +15,7 @@ const TrandingApps = () => {
       .catch((err) => console.error("Faching ERR:", err));
     }, []);
 
-    console.log(trendingApps);
+    // console.log(trendingApps);
 
     return (
         <div>

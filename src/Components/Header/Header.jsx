@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GitHub from '../../assets/github-mark-white.png'
-import { Link } from 'react-router';
+import { Link, useLocation } from 'react-router';
 import HeroIO from '../../assets/logo.png'
 import Root from '../../Pages/Root/Root';
 
 const Header = () => {
 
+  const pathLocation = useLocation();
+  const realPath = pathLocation.pathname;
+
     const NavLinks = <>
-        <Link className='pl-4 text-[16px]' to={Root}>Home</Link>
-        <Link className='pl-4 text-[16px]' to={'/apps'}>Apps</Link>
-        <Link className='pl-4 text-[16px]' to={'/installation'}>Installation</Link>
+        <Link className={realPath === '/' ? 'pl-4 text-[16px] text-[#632EE3] underline decoration-[#632EE3] font-bold' : 'pl-4 text-[16px] text-gray-700'} to={'/'}>Home</Link>
+        <Link className={realPath === "/apps" ? 'pl-4 text-[16px] text-[#632EE3] underline decoration-[#632EE3] font-bold' : 'pl-4 text-[16px] text-gray-700'} to={'/apps'}>Apps</Link>
+        <Link className={realPath === "installation" ? 'pl-4 text-[16px] text-[#632EE3] underline decoration-[#632EE3] font-bold' : 'pl-4 text-[16px] text-gray-700'} to={'/installation'}>Installation</Link>
     </>
 
     return (
