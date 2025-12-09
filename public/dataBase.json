@@ -4,7 +4,7 @@
     "title": "FitPulse",
     "companyName": "HealthTech Inc.",
     "id": 1,
-    "description": "Track daily workouts, monitor heart rate, and set fitness goals with real-time analytics for a healthier you. Stay motivated and achieve your fitness dreams.",
+    "description": "FitPulse is your all-in-one fitness companion designed to help you stay active and motivated every day. Track your workouts with precision, monitor real-time heart rate data, and set personalized goals that adapt to your progress over time. The app provides detailed analytics, intuitive charts, and smart reminders to keep you consistent and focused on self-improvement. Whether you're a beginner or an experienced athlete, FitPulse supports your journey with insights that help you understand your body better. Stay inspired with achievements, progress reports, and a clean interface crafted to make healthy living easier and more enjoyable.",
     "size": 45,
     "reviews": 12000,
     "ratingAvg": 4.5,
@@ -21,7 +21,8 @@
     "image": "https://play-lh.googleusercontent.com/xC-DQrK_m8FYPEbBk22aaZe84cQrnH_MIU1U5WxlYE3rwzvmWDZ5YzulY5LLk4XRUMOq=w240-h480-rw",
     "companyName": "Productivity Solutions",
     "id": 2,
-    "description": "Organize thoughts with intuitive note-taking. Cloud sync and rich text support make it easy to capture ideas, create lists, and stay productive anywhere.",
+    "title": "Note Master",
+    "description": "Note Master is a powerful yet simple note-taking tool built to help you organize your thoughts effortlessly. With rich-text formatting, checklists, and category tagging, it allows you to structure ideas in a clear, meaningful way. Cloud synchronization ensures your notes remain accessible across all devices, making productivity seamless whether you're at work, home, or on the go. Capture ideas instantly, create to-do lists, save study notes, or plan projects with intuitive features designed for efficiency. Its clean interface minimizes distractions, helping you stay focused while managing everything important in one place. Productivity becomes natural with Note Master.",
     "size": 20,
     "reviews": 8500,
     "ratingAvg": 4.2,
@@ -39,7 +40,7 @@
     "title": "PhotoSpark",
     "companyName": "Creative Labs",
     "id": 3,
-    "description": "Edit photos with advanced AI filters and tools. Enhance, crop, and share stunning images easily. Perfect for creators looking to spark their creativity.",
+    "description": "PhotoSpark brings powerful AI-powered photo editing to your fingertips with tools designed for creators of every skill level. Enhance your images using intelligent filters, adjust lighting and colors with precision, and experiment with artistic effects that give your photos a professional touch. The app offers cropping, retouching, background adjustments, and quick-share options to streamline your creative process. Whether you're capturing moments, building a portfolio, or crafting social-media-ready content, PhotoSpark makes editing simple and enjoyable. Its fast processing, modern interface, and smart suggestions help you transform ordinary photos into stunning visuals with minimal effort.",
     "size": 80,
     "reviews": 20000,
     "ratingAvg": 4.7,
@@ -52,12 +53,13 @@
       { "name": "5 star", "count": 10700 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/-epxNNeafRo_4qglUWC4YguLXZWyy1FvkkG9ha3uUZRov2jxKcV5s0laUbSbqH4zzA",
     "title": "HabitHero",
     "companyName": "GrowEasy",
     "id": 18,
-    "description": "Build and track habits with motivational reminders. Monitor progress with stats and stay on track to achieve personal goals with this habit-forming app.",
+    "description": "HabitHero helps you build strong, consistent habits through simple tracking and motivational reminders. Create routines, monitor daily progress, and visualize long-term growth with detailed statistics that keep you accountable. Whether you're trying to wake up earlier, read more, exercise regularly, or form healthier lifestyle patterns, HabitHero provides the structure you need. The app includes streak tracking, customizable alerts, and encouraging insights that make habit-building easier and more enjoyable. Its clean layout helps you stay focused on self-improvement while celebrating milestones that keep you inspired. With HabitHero, small daily actions turn into long-term success.",
     "size": 30,
     "reviews": 5000,
     "ratingAvg": 4.1,
@@ -70,12 +72,13 @@
       { "name": "5 star", "count": 1900 }
     ]
   },
+
   {
     "image": "https://png.pngtree.com/png-clipart/20240828/original/pngtree-meditation-icon-and-meditation-zen-tai-chi-app-vector-png-image_15872779.png",
     "title": "MeditateNow",
     "companyName": "ZenApps",
     "id": 5,
-    "description": "Relax with guided meditation sessions for mindfulness. Customize durations to fit your schedule and find peace, reduce stress, and boost mental clarity.",
+    "description": "MeditateNow guides you toward peace and clarity with calming meditation sessions designed for both beginners and experienced practitioners. Choose from a range of session lengths, soothing narrations, and mindfulness themes that help you relax, reduce stress, and improve emotional well-being. The app offers breathing exercises, sleep meditations, focus boosters, and relaxation tracks tailored to your daily needs. With progress tracking, gentle reminders, and a serene user interface, MeditateNow encourages a consistent mindfulness practice. Whether you need a quick mental reset or a deep meditation session, it provides a calming escape right at your fingertips.",
     "size": 60,
     "reviews": 9000,
     "ratingAvg": 4.8,
@@ -88,12 +91,13 @@
       { "name": "5 star", "count": 5400 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/5thsRSuMMigwBLckJx8wc96sJofYJh1y0DlO_hvhHpKd3SfQMrK0j5Yf3r3Zndwyg9M",
     "title": "LinguaLearn",
     "companyName": "EduTech Innovations",
     "id": 6,
-    "description": "Learn languages with interactive lessons and speech recognition. Master vocabulary and pronunciation with fun exercises tailored to your learning pace.",
+    "description": "LinguaLearn makes language learning engaging and effective through interactive lessons, real-world examples, and smart speech-recognition tools. Build vocabulary, practice pronunciation, and strengthen grammar through exercises tailored to your learning style. The app adapts to your pace, offering personalized challenges and reinforcement activities to help you retain what you learn. With daily goals, progress tracking, and a wide range of topics, LinguaLearn keeps you motivated and consistent. Whether you're preparing for travel, education, or personal growth, the app creates a fun, supportive learning environment that makes mastering new languages easier than ever.",
     "size": 50,
     "reviews": 15000,
     "ratingAvg": 4.4,
@@ -106,12 +110,13 @@
       { "name": "5 star", "count": 6900 }
     ]
   },
+
   {
     "image": "https://png.pngtree.com/png-clipart/20230816/original/pngtree-budget-plan-icon-budget-icon-financial-vector-picture-image_10833558.png",
     "title": "BudgetPlan",
     "companyName": "FinanceGuru",
     "id": 7,
-    "description": "Track expenses and set budgets with ease. Gain financial insights to manage money wisely. Perfect for saving, planning, and achieving financial goals.",
+    "description": "BudgetPlan helps you take control of your finances with easy-to-use budgeting and expense-tracking tools. Record spending, categorize expenses, and set monthly or weekly budgets tailored to your lifestyle. The app provides clear financial summaries, helpful charts, and actionable insights that reveal your spending habits and highlight opportunities to save more. Whether you're managing personal finances, planning for goals, or simply trying to stay organized, BudgetPlan supports your journey with clarity and simplicity. Its reminders, secure data handling, and intuitive interface make money management stress-free, helping you build healthier financial habits with confidence.",
     "size": 25,
     "reviews": 6000,
     "ratingAvg": 4.3,
@@ -124,12 +129,13 @@
       { "name": "5 star", "count": 2400 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/uCneOAP0_XSgjL7DwpD1OI2VvAOXvaCcm24iWKEKQ3BTGJiuVFyOH86-OKkgwM5IVaw",
     "title": "TuneFlow",
     "companyName": "SoundWave Inc.",
     "id": 8,
-    "description": "Stream millions of songs and create playlists. Enjoy offline playback and discover new music tailored to your taste with an intuitive music streaming app.",
+    "description": "TuneFlow is a feature-rich music streaming platform offering millions of tracks across genres, moods, and cultures. Create personalized playlists, explore curated recommendations, and discover new artists based on your listening habits. With offline playback, premium audio quality, and a sleek interface, the app ensures a smooth and enjoyable listening experience wherever you go. TuneFlow also includes mood-based filters, trending charts, and smart search tools to help you find the perfect song instantly. Whether you're relaxing, working out, studying, or traveling, TuneFlow brings music that fits every moment of your life.",
     "size": 90,
     "reviews": 25000,
     "ratingAvg": 4.6,
@@ -142,12 +148,13 @@
       { "name": "5 star", "count": 13300 }
     ]
   },
+
   {
     "image": "https://cdn-icons-png.flaticon.com/512/3022/3022613.png",
     "title": "RecipeBook",
     "companyName": "FoodieApps",
     "id": 9,
-    "description": "Discover thousands of recipes and plan meals easily. Create shopping lists and cook delicious dishes with step-by-step guides for all skill levels.",
+    "description": "RecipeBook is your cooking companion, offering thousands of recipes for beginners and experts alike. Browse dishes by cuisine, difficulty, ingredients, or dietary preferences to find meals suited to your taste. The app provides step-by-step instructions, cooking tips, and helpful visuals to guide you through every recipe with ease. Create personalized meal plans, save favorites, and build shopping lists that streamline your kitchen routine. Whether you're experimenting with new flavors or perfecting classics, RecipeBook makes cooking enjoyable and accessible. It helps you bring delicious, home-cooked meals to your table with confidence and creativity.",
     "size": 35,
     "reviews": 7000,
     "ratingAvg": 4.1,
@@ -160,12 +167,13 @@
       { "name": "5 star", "count": 2600 }
     ]
   },
+
   {
     "image": "https://cdn-icons-png.flaticon.com/512/555/555375.png",
     "title": "TravelMate",
     "companyName": "Wanderlust Co.",
     "id": 10,
-    "description": "Plan trips and explore destinations with local insights. Book activities and navigate easily with this all-in-one travel companion for adventurers.",
+    "description": "TravelMate helps you plan unforgettable trips with ease by offering destination guides, local insights, booking tools, and smart navigation features. Discover attractions, restaurants, cultural hotspots, and hidden gems tailored to your interests. The app lets you create itineraries, track expenses, and bookmark must-visit locations to stay organized throughout your journey. Whether you're traveling solo, with friends, or on a family vacation, TravelMate ensures a smooth experience from planning to exploring. With offline maps, weather details, safety tips, and travel hacks, it becomes your trusted companion for every adventure, no matter where your journey leads.",
     "size": 70,
     "reviews": 11000,
     "ratingAvg": 4.5,
@@ -178,12 +186,13 @@
       { "name": "5 star", "count": 5200 }
     ]
   },
+
   {
     "image": "https://cdn-icons-png.flaticon.com/512/1062/1062095.png",
     "title": "FocusTimer",
     "companyName": "MindTools",
     "id": 11,
-    "description": "Boost productivity with Pomodoro timers and focus tracking. Stay on task, manage time effectively, and achieve goals with this simple, powerful app.",
+    "description": "FocusTimer boosts your productivity with an effective Pomodoro-based system that helps you stay focused, manage time, and complete tasks efficiently. Set custom work and break intervals, track completed sessions, and analyze your performance with simple statistics. The app is perfect for students, professionals, and anyone looking to improve concentration while reducing burnout. Its minimalist design removes distractions, allowing you to stay fully immersed in your work. With motivational insights, session history, and optional reminders, FocusTimer makes time management clear and achievable, helping you develop consistent, productive habits that support your long-term goals.",
     "size": 15,
     "reviews": 3000,
     "ratingAvg": 4.0,
@@ -196,12 +205,13 @@
       { "name": "5 star", "count": 1000 }
     ]
   },
+
   {
     "image": "https://cdn-icons-png.flaticon.com/512/2909/2909306.png",
     "title": "ArtStudio",
     "companyName": "Creative Minds",
     "id": 12,
-    "description": "Create digital art with advanced brushes and layers. Unleash creativity with powerful tools designed for artists of all levels to craft stunning visuals.",
+    "description": "ArtStudio empowers artists with advanced digital tools designed for sketching, drawing, and full-scale illustration. With layers, blending modes, pressure-sensitive brushes, and customizable palettes, the app provides a professional environment for artistic expression. Whether you're creating concept art, comics, portraits, or simple doodles, ArtStudio adapts to your creative workflow. Its smooth performance, intuitive controls, and high-resolution canvas options help you bring your ideas to life with precision. Save, export, and share your artwork instantly. Whether you're a hobbyist or a professional creator, ArtStudio offers everything needed to explore your creativity without limits.",
     "size": 120,
     "reviews": 8000,
     "ratingAvg": 4.4,
@@ -214,12 +224,13 @@
       { "name": "5 star", "count": 3500 }
     ]
   },
+
   {
     "image": "https://www.citypng.com/public/uploads/preview/flat-newspaper-news-round-icon-701751695035110ggaeu2amu9.png",
     "title": "NewsReader",
     "companyName": "InfoHub",
     "id": 13,
-    "description": "Stay updated with personalized news feeds from trusted sources. Get breaking news, in-depth articles, and curated stories tailored to your interests.",
+    "description": "NewsReader keeps you informed with personalized news feeds from reliable global sources. Receive breaking news alerts, bookmark stories, and explore in-depth articles across categories like technology, politics, entertainment, sports, and more. The app learns your preferences and curates content tailored to your interests, ensuring you never miss updates that matter. With a clean layout, fast loading, and offline reading options, NewsReader enhances your daily news experience. Whether you're staying updated on world events or diving into insightful analysis, it provides a balanced, organized platform for consuming information efficiently and staying connected to the world.",
     "size": 40,
     "reviews": 13000,
     "ratingAvg": 4.2,
@@ -232,12 +243,13 @@
       { "name": "5 star", "count": 5500 }
     ]
   },
+
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/6b/6d/8b6b6df7-3287-0e2a-4310-bdfe45e77e9e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
     "title": "WeatherPlus",
     "companyName": "ClimateTech",
     "id": 14,
-    "description": "Get accurate weather forecasts, radar maps, and severe weather alerts. Plan your day with real-time updates and detailed conditions for any location.",
+    "description": "WeatherPlus delivers accurate, real-time weather forecasts with detailed hourly updates, radar maps, and severe weather alerts. Stay prepared with information on temperature, wind speed, humidity, air quality, and upcoming weather patterns. The app features interactive radar, storm tracking, and location-based notifications that help you plan your day confidently. Whether you're scheduling outdoor activities, commuting, or traveling, WeatherPlus ensures you have the latest data at your fingertips. Its clean design, customizable widgets, and reliable forecasting technology make it a trusted tool for staying informed. Experience weather insights that help you stay ahead of changing conditions.",
     "size": 55,
     "reviews": 18000,
     "ratingAvg": 4.6,
@@ -250,12 +262,13 @@
       { "name": "5 star", "count": 9600 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/FsC0tHdRsl3vSOofRKcRTlpX-qNK2SC-Qdd4EKlTZCuHqN15S0ew6RrfHBYh5OzUyOg",
     "title": "PodStream",
     "companyName": "AudioWave",
     "id": 15,
-    "description": "Discover podcasts and listen offline. Enjoy a vast library of shows, create playlists, and stay entertained with seamless playback and curated content.",
+    "description": "PodStream offers a massive library of podcasts spanning true crime, education, comedy, storytelling, motivation, and more. Discover trending shows or explore curated recommendations based on your listening habits. The app supports offline downloads, playlist creation, and seamless playback across devices, ensuring you enjoy episodes anytime, anywhere. With smart search, episode tracking, bookmark features, and personalized suggestions, PodStream makes podcast listening convenient and fun. Whether you’re learning something new, staying entertained, or following your favorite creators, PodStream delivers a smooth, enjoyable audio experience designed for every type of listener.",
     "size": 65,
     "reviews": 9500,
     "ratingAvg": 4.3,
@@ -268,12 +281,13 @@
       { "name": "5 star", "count": 4100 }
     ]
   },
+
   {
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGL3Qr8jfJaTFqRTlsbVt2NHIRGnytPqLWhA&s",
     "title": "FitCoach",
     "companyName": "ActiveLife",
     "id": 16,
-    "description": "Get personalized workout plans and nutrition advice from expert coaches. Achieve fitness goals with tailored exercises and meal plans for a healthier you.",
+    "description": "FitCoach gives you personalized workout routines and nutrition guidance designed by experts to support your fitness journey. Whether your goal is to build muscle, lose weight, increase stamina, or improve overall health, FitCoach provides tailored plans that adapt to your performance. Enjoy detailed exercise tutorials, meal suggestions, progress tracking, and motivational insights that help you stay committed. With a balanced mix of cardio, strength training, and flexibility exercises, the app ensures you train safely and effectively. FitCoach turns your fitness goals into achievable milestones with structured guidance and a user-friendly interface.",
     "size": 75,
     "reviews": 14000,
     "ratingAvg": 4.7,
