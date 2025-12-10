@@ -4,11 +4,13 @@ import Img from '/src/assets/icon-downloads.png';
 import AvgRating from '/src/assets/icon-ratings.png';
 import reviewsIcon from '/src/assets/icon-review.png';
 import Charts from './Charts/Charts';
+import Loading from '../NoApp/Loading';
+import { ToastContainer, toast } from 'react-toastify';
 
 const AppDetails = () => {
   const app = useLoaderData();
   const [isInstalled, setIsInstalled] = useState(false);
-
+  const notify = () => toast(`${app.title} Installed!`);
   useEffect(() => {
     if (!app) return;
     const storedIds = JSON.parse(localStorage.getItem("appIds")) || [];
@@ -21,11 +23,12 @@ const AppDetails = () => {
     if (!storedIds.includes(app.id)) {
       storedIds.push(app.id);
       localStorage.setItem("appIds", JSON.stringify(storedIds));
+      notify();
       setIsInstalled(true);
     }
   };
 
-  if (!app) return <div>Loading...</div>;
+  if (!app) return <Loading></Loading>;
 
   return (
     <div className='bg-gray-100 min-h-screen py-10 px-8 lg:py-20 lg:px-40 flex flex-col gap-5'>
@@ -90,6 +93,7 @@ const AppDetails = () => {
           {app.description}
         </p>
       </section>
+      <ToastContainer/>
     </div>
   );
 };

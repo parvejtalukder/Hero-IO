@@ -5,6 +5,7 @@ import Home from '../Pages/Home/Home';
 import Apps from '../Pages/Apps/Apps';
 import Error from '../Components/NoApp/Error';
 import AppDetails from '../Components/AppDetails/AppDetails';
+import Installation from '../Pages/Installation/Installation';
 // import { RouterProvider } from "react-router/dom";
 
 export const router = createBrowserRouter([
@@ -31,6 +32,9 @@ export const router = createBrowserRouter([
             .then(res => res.json())
             .then(data => data.find(app => parseInt(app.id) === parseInt(params.id)));
         }
+      }, {
+        path: "/installation",
+        Component: Installation,
       }
     ]
   },
